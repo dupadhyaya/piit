@@ -1,0 +1,25 @@
+SQL  - database for practise
+🔹SQL Lite for Mac
+
+#SQLite is built into macOS by default.
+
+-To check if it’s already installed:
+bash> sqlite3 --version
+- If it’s not installed (rare), install via Homebrew:
+bash> brew install sqlite
+
+- Use SQLite from the terminal:
+sqlite3 my_database.db
+
+🔹My SQL
+bash> brew update
+bash> brew install mysql
+
+-Start MySQL
+bash> brew services start mysql
+
+-Secure Installation
+bash> mysql_secure_installation
+
+-Connect to MySQL
+bash> myql -u root
