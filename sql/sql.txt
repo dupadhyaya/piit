@@ -1,0 +1,4 @@
+mysql
+mysql -u piuser -p
+user - piuser
+pwd - Pass#123
