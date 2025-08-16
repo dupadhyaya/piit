@@ -53,3 +53,17 @@ head(df)
 #disconnect
 dbDisconnect(con2)
 #end here
+
+#redocheck-------
+con2 <- dbConnect(RMySQL::MySQL(),  host = host1, user = user1, password = password1, dbname = dbname1)
+print(con2) 
+students_tbl <- tbl(con2, "students")
+scores_tbl   <- tbl(con2, "student_scores")
+joined_tbl <- students_tbl %>%   inner_join(scores_tbl, by = "id")
+# Preview query SQL
+joined_tbl
+
+# Pull into R
+df <- collect(joined_tbl)
+head(df)
+str(df)
