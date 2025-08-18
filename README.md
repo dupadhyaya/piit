@@ -17,5 +17,7 @@ Some Links to refer
 - https://docs.google.com/spreadsheets/d/1NTNtEhHe4JShDhZ_DmX_k2u93V_bmVz1t8j9DliCg1A
 - https://docs.google.com/spreadsheets/d/19EqsXhG4RF8O1cb6hFDicyM2orrkcRO9z4VCvaPXwiU
 
+https://docs.google.com/document/d/1F9OwznHskvqrfFYcB5GupV5WbV0gH0j4 Videos
+
 ## You can put your issues through this tab/ link
 - https://github.com/dupadhyaya/piit/issues
