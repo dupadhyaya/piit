@@ -23,4 +23,4 @@ bash> mysql_secure_installation
 
 -Connect to MySQL
 bash> myql -u root
-Pass- Mysql@123
+Pass- piit2025
