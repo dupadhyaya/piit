@@ -1,0 +1,43 @@
+#SQL command level inputs
+mysql.server start/stop/restart
+mysql -u root -pMysql@123
+
+#create database and user piuser
+CREATE DATABASE IF NOT EXISTS piit;
+CREATE USER 'piuser'@'localhost' IDENTIFIED BY 'Pass@123'; 
+#'localhost' means the user can only connect from the local machine.
+
+#grant rights to piuser
+GRANT ALL PRIVILEGES ON piit.* TO 'piuser'@'localhost';
+FLUSH PRIVILEGES;
+#exit as root
+exit;
+#logout from root user
+#login as piuser
+
+mysql -u piuser -pPass#123
+
+user - piuser
+pwd - Pass#123
+
+#
+use database piit;
+#create table
+CREATE TABLE students1 (  id INT PRIMARY KEY,  name VARCHAR(50),   score INT);
+
+INSERT INTO students1 VALUES (1, 'Alice', 85), (2, 'Bob', 78), (3, 'Charlie', 92);
+
+#WINDOWS----------------------
+- create shortcut with cmd and save it in desktop
+- double click on the shortcut
+- usually the location : C:\Program Files\MySQL\MySQL Server X.X\bin\mysql.exe
+- C:> cd c:\Program Files\MySQL\MySQL server 8.0\bin
+- C:> mysql -u xxxxxx - p (provide pwd)
+
+#MAC-------
+- open terminal mode
+- type : mysql -u root -p (type pwd) [ piit2025]
+- type : mysql -u piusers -p (type pwd) [ Pass@123]
+
+- type : mysql -u root -p (type pwd) [ MySql@123]
+
