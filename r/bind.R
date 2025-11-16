@@ -24,8 +24,14 @@ df34
 
 #join-----
 #https://statisticsglobe.com/r-dplyr-join-inner-left-right-full-semi-anti
-df34B = merge(df3, df4, by='rollno')
+df34B = merge(df3, df4, by='rollno', all.x=T, all.y=F)
 df34B
+
+?inner_join
 
 ?merge
 ?join_by()
+
+inner_join(df3, df4, by='rollno')
+
+gender = sample(x=c('M','F'), size=11, replace=T)
