@@ -1,0 +1,3 @@
+Mohammad: Link with SQL 
+Dj : Visualization, reports in R and GGPLOT.
+Me: How to create a Dataframe
