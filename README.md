@@ -18,7 +18,7 @@ Some Links to refer
 - https://docs.google.com/spreadsheets/d/19EqsXhG4RF8O1cb6hFDicyM2orrkcRO9z4VCvaPXwiU
 
 https://docs.google.com/document/d/1F9OwznHskvqrfFYcB5GupV5WbV0gH0j4 Videos
-
+Synthetic Data : https://www.kdnuggets.com/5-useful-python-scripts-for-synthetic-data-generation
 ## You can put your issues through this tab/ link
 - https://github.com/dupadhyaya/piit/issues
 # Data Analysis
