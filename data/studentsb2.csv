@@ -1,0 +1,31 @@
+id,name,branch,score,exam_date,remarks
+1,Rick Johnson,Mechanical,63.68,2025-03-30,Average
+2,Shannon Hall,Electrical,74.35,2024-03-28,Outstanding
+3,Stephanie Flores,Computer Science,88.97,2024-05-17,Average
+4,Keith Ferrell,Civil,75,2025-06-22,Average
+5,Corey Allen,Computer Science,63.14,2025-05-17,Needs Improvement
+6,Brittney Galloway,Computer Science,51.85,2025-02-01,Needs Improvement
+7,Kathryn Gordon,Electrical,70.88,2023-12-10,Outstanding
+8,Julia Warren,Electrical,63.07,2023-11-21,Needs Improvement
+9,Carol Cunningham,Computer Science,87.88,2024-07-29,Good
+10,Cassidy Crawford,Civil,52.46,2025-02-25,Excellent
+11,William Sanders,Electronics,53.81,2024-01-02,Average
+12,Amanda Chapman,Mechanical,58.49,2025-03-04,Outstanding
+13,Amanda Reese,Electronics,54.26,2023-10-15,Average
+14,Katherine Morrow,Civil,85.95,2023-09-23,Outstanding
+15,Daniel Graham,Computer Science,65,2024-10-27,Needs Improvement
+16,Alexander Rivers,Electrical,93.69,2024-11-09,Excellent
+17,Sarah Gordon,Computer Science,86.08,2023-11-24,Excellent
+18,Lauren Weaver,Electronics,50.65,2025-01-18,Good
+19,Kim Herrera,Electronics,54.02,2025-01-18,Average
+20,Rhonda Sullivan,Civil,88.3,2024-02-04,Outstanding
+21,Sara Gomez,Electronics,64.88,2024-12-01,Needs Improvement
+22,Emily Moore,Civil,65.21,2024-03-15,Outstanding
+23,Robert Delacruz,Civil,51.92,2024-02-15,Good
+24,Shawn Simon,Computer Science,94.68,2023-12-22,Average
+25,Danielle Le,Mechanical,91.5,2024-02-28,Outstanding
+26,Alexandra Alexander,Electronics,55.09,2025-04-13,Outstanding
+27,Anna Zimmerman,Civil,83.72,2024-10-28,Average
+28,Michael Johnson,Electronics,78.04,2024-07-05,Average
+29,Michael Higgins DDS,Computer Science,90.45,2025-02-20,Outstanding
+30,Jodi Chapman,Electronics,54.13,2025-07-04,Needs Improvement

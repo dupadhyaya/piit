@@ -1,7 +1,7 @@
 #SQL command level inputs
 mysql.server start/stop/restart
 mysql -u root -pMysql@123
-
+#-------------------------------
 #create database and user piuser
 CREATE DATABASE IF NOT EXISTS piit;
 CREATE USER 'piuser'@'localhost' IDENTIFIED BY 'Pass@123'; 
