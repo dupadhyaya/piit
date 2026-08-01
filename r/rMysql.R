@@ -5,7 +5,7 @@ library(RMySQL)
 co <- dbConnect(MySQL(), user='root', password = 'Mysql@123', dbname='piit', host='localhost')
 co
 
-df = dbGetQuery(co, 'select * from mtcars')
+df = dbGetQuery(co, 'select * from emp')
 df
 df2
 df2 = dbGetQuery(co, 'select * from employees')
