@@ -36,7 +36,9 @@ monthly_sales <- orders1 %>%  mutate(    Month = floor_date( Order.Date,      un
 line_chart <- ggplot(  monthly_sales,  aes(    x = Month,    y = Sales  )) +  geom_line(    color = "#2C7FB8",  linewidth = 1  ) +  geom_point(    color = "#2C7FB8",    size = 2  ) +  scale_y_continuous(    labels = label_dollar()  ) +  scale_x_date(    date_labels = "%b %Y"  ) +  labs(    title = "Monthly Sales Trend", subtitle = "Sales aggregated by order month",    x = "Order Month",    y = "Total Sales"  ) +  theme(axis.text.x = element_text(      angle = 45,      hjust = 1    )  )
 
 line_chart
-
+## LineCharts2-----
+gPIIT_LC2 <- orders1 %>% group_by(Region, salesYear =  year( Order.Date)) %>%  summarise(Sales = round(sum( Sales, na.rm = TRUE)),  .groups = "drop"  ) %>% ggplot(., aes(x=salesYear, y=Sales)) + geom_line(aes(group = Region, color=Region)) + geom_point() + ggrepel::geom_label_repel(aes(label=Sales, fill=Region)) + labs(title='Region-Year Sales ') + theme(plot.title = element_text(hjust=.5))
+gPIIT_LC2
 
 #Area-----
 area_chart <- ggplot(
