@@ -1,6 +1,5 @@
 #graphs in R
 
-
 #base-----
 hist(mtcars$mpg)
 barplot(height = table(mtcars$gear), col=c('red','green','blue'))
@@ -28,3 +27,4 @@ df1
 df1 %>% ggplot(., aes(x=year, y=salesP1)) + geom_point(color='green', size=5) + geom_line() + geom_text(aes(label=salesP1)) + labs(title='Sales of L5y') + theme(plot.title = element_text(hjust=.5))
 
 df1 %>% pivot_longer(cols=salesP1:salesP2, names_to = 'product', values_to = 'sales') %>% ggplot(., aes(x=year, y=sales)) + geom_point(color='green', size=5) + geom_line(aes(group=product, color=product)) + geom_text(aes(label=sales)) + labs(title='Sales of L5y : P1 & P2') + theme(plot.title = element_text(hjust=.5))
+

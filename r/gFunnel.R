@@ -12,6 +12,7 @@ fig
 df2 = data.frame(y=c('Leads', 'Inquiries', 'Forms','Selection', 'FeePaid', 'Enrolment'), x=c(100, 80, 60, 40, 20,10))
 df2
 fig <- plot_ly()
+fig
 fig <- fig %>% add_trace(type ='funnel', y=c('Leads', 'Inquiries', 'Forms','Selection', 'FeePaid', 'Enrolment'), x=c(100, 80, 60, 40, 20,10), marker = list(color = c('red','pink','brown', 'violet','orange','yellow'), line = list(width=1, color='red')))
 fig <- fig %>% layout(yaxis = list(categoryarray= c('Leads', 'Inquiries', 'Forms','Selection', 'FeePaid', 'Enrolment')))
 fig                         
