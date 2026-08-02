@@ -7,7 +7,7 @@ wordcloud2(data=demoFreq, size=1.6)
 ?wordcloud2
 wordcloud2(demoFreq, size = 0.7, shape = 'star')
 
-df1 = data.frame(word = c('Mandal','Nayeema','Suroor','Kabir'), size=c(150, 40, 60, 30))
+df1 = data.frame(word = c('Mandal','Deniz','Rita','Rosul'), size=c(150, 40, 60, 30))
 df1
 wordcloud2(data = df1)
 

@@ -2,7 +2,7 @@
 
 pacman::p_load(DBI, RMariaDB, dplyr)
 dbname1='piit'; user1='root'; pswd1 = 'Mysql@123'
-con <- dbConnect(  RMariaDB::MariaDB(),  host  = "localhost",  port = 3306,  dbname = dbname1,  user     = user1,  password = pswd1)
+con <- dbConnect(  RMariaDB::MariaDB(),  host  = "localhost",  port = 3306,  dbname = dbname1,  user = user1,  password = pswd1)
 con
 # Test the connection
 dbGetQuery(con, "SELECT VERSION() AS mysql_version")
