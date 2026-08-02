@@ -1,5 +1,5 @@
 # Learning objectives
-## Rhe material is intended to help learners:
+## The material is intended to help learners:
 - import data from different sources and export it in useful formats;
 - inspect rows, columns, data types, structure, and size;
 - find and handle missing values, duplicates, and inconsistencies;
